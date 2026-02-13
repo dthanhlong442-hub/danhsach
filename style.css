@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* ===== HEADER ===== */
+header {
+  background: linear-gradient(135deg, #ffc3e8, #c3e7ff);
+  color: white;
+  padding: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ===== NAV ===== */
+nav {
+  background: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: blue;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  background: linear-gradient(90deg,#fff7ad,#ffa9f9);
+}
+
+  #vungtoi {
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,0.8);
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+
+#vungtoi img {
+    max-width:90%;
+    max-height:90%;
+    border-radius:10px
+}
